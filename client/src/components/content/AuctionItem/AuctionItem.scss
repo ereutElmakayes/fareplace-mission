@@ -1,0 +1,10 @@
+.auction-item{
+    margin: 10px 20px;
+    width: calc((25% - 40px));
+    @media only screen and (max-width: 1200px) {
+        width: calc((33% - 40px));
+        }
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      }
+}
